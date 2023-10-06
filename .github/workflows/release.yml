@@ -1,5 +1,5 @@
 # Reusable workflow for releases; to eject, you can replace this file with
-# https://github.com/PLACEHOLDER_GITHUB_USER/PLACEHOLDER_GITHUB_USER/blob/main/.github/workflows/release.yml
+# https://github.com/SebastianWesolowski/SebastianWesolowski/blob/main/.github/workflows/release.yml
 name: Release
 on:
   push:
@@ -11,6 +11,6 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
-    uses: PLACEHOLDER_GITHUB_USER/PLACEHOLDER_GITHUB_USER/.github/workflows/release.yml@main
+    uses: SebastianWesolowski/SebastianWesolowski/.github/workflows/release.yml@main
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

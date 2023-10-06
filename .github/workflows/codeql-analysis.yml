@@ -17,4 +17,4 @@ on:
 
 jobs:
   analyze:
-    uses: PLACEHOLDER_GITHUB_USER/PLACEHOLDER_GITHUB_USER/.github/workflows/codeql-analysis.yml@main
+    uses: SebastianWesolowski/SebastianWesolowski/.github/workflows/codeql-analysis.yml@main

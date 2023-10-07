@@ -1,6 +1,6 @@
 {
   "name": "s-block",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A template for creating npm packages using TypeScript",
   "main": "./lib/index.js",
   "files": [
@@ -124,10 +124,17 @@
       ],
       "@semantic-release/npm",
       "@semantic-release/github",
-      ["@semantic-release/git", {
-        "assets": ["lib/**/*.{js,ts,d.ts}","package.json", "CHANGELOG.md"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }]
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "lib/**/*.{js,ts,d.ts}",
+            "package.json",
+            "CHANGELOG.md"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
     ]
   }
 }

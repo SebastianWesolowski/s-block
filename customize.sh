@@ -18,15 +18,6 @@ sed -i.mybak "s/PLACEHOLDER_REPO_NAME/$REPO_NAME/g" package.json
 # Edit the ./.nvmrc file
 sed -i.mybak "s/PLACEHOLDER_NODE/$NODE_VERSION/g" .nvmrc
 
-# Edit the .github/workflows/codeql-analysis.yml file
-sed -i.mybak "s/PLACEHOLDER_GITHUB_USER/$GITHUB_USER/g" .github/workflows/codeql-analysis.yml
-
-# Edit the .github/workflows/relese.yml file
-sed -i.mybak "s/PLACEHOLDER_GITHUB_USER/$GITHUB_USER/g" .github/workflows/release.yml
-
-# Edit the .github/workflows/pr.yml file
-sed -i.mybak "s/PLACEHOLDER_GITHUB_USER/$GITHUB_USER/g" .github/workflows/pr.yml
-
 # Edit the README.md file
 sed -i.mybak "s/PLACEHOLDER_GITHUB_USER/$GITHUB_USER/g" README.md
 sed -i.mybak "s/PLACEHOLDER_REPO_NAME/$REPO_NAME/g" README.md

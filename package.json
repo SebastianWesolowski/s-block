@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SebastianWesolowski/s-block.git"
+    "url": "https://github.com/SebastianWesolowski/s-block.git"
   },
   "license": "MIT",
   "author": {
-    "name": "PLACEHOLDER_FULL_NAME",
+    "name": "Sebastian Wesolowski",
     "email": "SebastianWesolowski@users.noreply.github.com",
     "url": "https://github.com/SebastianWesolowski"
   },

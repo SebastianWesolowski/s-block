@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe4e43c6-098c-4bad-9845-8c2c513c32cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/codecov.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/codecov.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pr.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pr.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -39,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Rebasing main",
     "last_opened_file_path": "/Users/sebastian/web/@s-starters/package-starter/typescript-npm-package-template-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -64,7 +64,7 @@
       <updated>1696613478149</updated>
       <workItem from="1696613480497" duration="5447000" />
       <workItem from="1696621075151" duration="84000" />
-      <workItem from="1696684628675" duration="611000" />
+      <workItem from="1696684628675" duration="1204000" />
     </task>
     <servers />
   </component>
@@ -81,5 +81,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build: new workflows for github&#10;&#10;Signed-off-by: Sebastian Wesołowski &lt;Sebastian.wesolowski.sw@gmail.com&gt;&#10;&#10;# Conflicts:&#10;#&#9;.github/workflows/release.yml&#10;#&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="build: new workflows for github&#10;&#10;Signed-off-by: Sebastian Wesołowski &lt;Sebastian.wesolowski.sw@gmail.com&gt;&#10;&#10;# Conflicts:&#10;#&#9;.github/workflows/release.yml&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="build: new workflows for github&#10;&#10;Signed-off-by: Sebastian Wesołowski &lt;Sebastian.wesolowski.sw@gmail.com&gt;&#10;&#10;# Conflicts:&#10;#&#9;.github/workflows/release.yml&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>

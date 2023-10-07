@@ -12,7 +12,6 @@
     "cm": "cz",
     "lint": "eslint ./src/ --fix",
     "prepare": "husky install",
-    "semantic-release": "semantic-release --branches main",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
     "typecheck": "tsc --noEmit"
